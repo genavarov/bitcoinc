@@ -81,8 +81,8 @@ if "BITCOINCLI" not in os.environ:
     os.environ["BITCOINCLI"] = BUILDDIR + '/src/bitcoin-cli' + EXEEXT
 
 if EXEEXT == ".exe" and "-win" not in opts:
-    # https://github.com/bitcoin/bitcoin/commit/d52802551752140cf41f0d9a225a43e84404d3e9
-    # https://github.com/bitcoin/bitcoin/pull/5677#issuecomment-136646964
+    # https://github.com/genavarov/bitcoinco/commit/d52802551752140cf41f0d9a225a43e84404d3e9
+    # https://github.com/genavarov/bitcoinco/pull/5677#issuecomment-136646964
     print("Win tests currently disabled by default.  Use -win option to enable")
     sys.exit(0)
 

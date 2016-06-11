@@ -10,7 +10,7 @@ and performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/bitcoin/bitcoin/issues>
+  <https://github.com/genavarov/bitcoinco/issues>
 
 To receive security and update notifications, please subscribe to:
 
@@ -94,7 +94,7 @@ listeners to detect lost notifications.
 The sequence number is always the last element in a multi-part ZMQ notification and
 therefore backward compatible.
 Each message type has its own counter.
-(https://github.com/bitcoin/bitcoin/pull/7762)
+(https://github.com/genavarov/bitcoinco/pull/7762)
 
 ### Configuration and command-line options
 

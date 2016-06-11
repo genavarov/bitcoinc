@@ -25,7 +25,7 @@ Build-Depends: debhelper,
 Standards-Version: 3.9.2
 Homepage: https://bitcoincore.org/
 Vcs-Git: git://github.com/bitcoin/bitcoin.git
-Vcs-Browser: https://github.com/bitcoin/bitcoin
+Vcs-Browser: https://github.com/genavarov/bitcoinco
 
 Package: bitcoind
 Architecture: any
