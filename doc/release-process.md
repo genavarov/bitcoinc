@@ -3,7 +3,7 @@ Release Process
 
 Before every release candidate:
 
-* Update translations (ping wumpus on IRC) see [translation_process.md](https://github.com/bitcoin/bitcoin/blob/master/doc/translation_process.md#syncing-with-transifex)
+* Update translations (ping wumpus on IRC) see [translation_process.md](https://github.com/genavarov/bitcoinco/blob/master/doc/translation_process.md#syncing-with-transifex)
 
 Before every minor and major release:
 
@@ -13,7 +13,7 @@ Before every minor and major release:
 
 Before every major release:
 
-* Update hardcoded [seeds](/contrib/seeds/README.md), see [this pull request](https://github.com/bitcoin/bitcoin/pull/7415) for an example. 
+* Update hardcoded [seeds](/contrib/seeds/README.md), see [this pull request](https://github.com/genavarov/bitcoinco/pull/7415) for an example. 
 
 ### First time / New builders
 
@@ -23,7 +23,7 @@ Check out the source code in the following directory hierarchy.
     git clone https://github.com/bitcoin-core/gitian.sigs.git
     git clone https://github.com/bitcoin-core/bitcoin-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
-    git clone https://github.com/bitcoin/bitcoin.git
+    git clone https://github.com/genavarov/bitcoinco.git
 
 ### Bitcoin maintainers/release engineers, update version in sources
 
